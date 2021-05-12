@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="icon" href="coronaIcon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+
+    <title>News</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+
+        @font-face {
+            font-family: font1;
+            src: url(Montserrat-Regular.ttf);
+        }
+
+        body {
+            margin: 0;
+        }
+
+        .topnav {
+            overflow: hidden;
+            background-color: #333;
+        }
+
+            .topnav a {
+                float: left;
+                display: block;
+                color: #f2f2f2;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-size: 17px;
+            }
+
+                .topnav a:hover {
+                    background-color: #ddd;
+                    color: black;
+                }
+
+                .topnav a.active {
+                    background-color: red;
+                    color: white;
+                }
+
+            .topnav .icon {
+                display: none;
+            }
+
+        @media screen and (max-width: 1100px) {
+            .topnav a:not(:first-child) {
+                display: none;
+            }
+
+            .topnav a.icon {
+                float: right;
+                display: block;
+            }
+        }
+
+        @media screen and (max-width: 1000px) {
+            .topnav.responsive {
+                position: relative;
+            }
+
+                .topnav.responsive .icon {
+                    position: absolute;
+                    right: 0;
+                    top: 0;
+                }
+
+                .topnav.responsive a {
+                    float: none;
+                    display: block;
+                    text-align: left;
+                }
+        }
+
+
+
+        @font-face {
+            font-family: font1;
+            src: url(Montserrat-Regular.ttf);
+        }
+
+        body {
+            margin: 0;
+        }
+
+        .navbar {
+            background-color: #333;
+            overflow: auto;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+
+            .navbar a {
+                float: right;
+                color: #f2f2f2;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-size: 17px;
+            }
+
+
+                .navbar a:hover {
+                    background-color: #ddd;
+                    color: black;
+                }
+
+
+                .navbar a.active {
+                    background-color: #4CAF50;
+                    color: white;
+                }
+        </style>
+        <style>
+        * {
+          font-family: Montserrat;
+        }
+       </style>
+
+</head>
+<body>
+
+    <div class="topnav" id="myTopnav">
+        <a class="active" href="newPage.html">News</a> 
+        <a href="main.html">Home</a> 
+        <a href="Cases.html">National Stats</a> <a href="Deaths.html">International Stats</a> 
+         <a href="Contact.html">Contact</a> 
+         <a href="Mask.html">Masks</a> 
+         <a href="Mission.html">Mission</a> <a href="Animation.html">Animation</a>
+         <a href="https://apps.apple.com/us/app/oregonaid/id1515867425">IOS-Application</a>
+
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+    <script>
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+    </script>
+    <br>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .column {
+            float: left;
+            width: 33.33333333%;
+            padding-right: 5px;
+            border-top: 5px solid red;
+            border-bottom: 5px solid red;
+            border-left: 2.5px solid red;
+            border-right: 2.5px solid red;
+        }
+
+        /* Clearfix (clear floats) */
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+    </style>
+
+    <div class="row">
+        <div class="column">
+            <img src="CasesCon.png" alt="Cases" style="width:100%;height:100%">
+        </div>
+        <div class="column">
+            <a href="Policies.html"><img src="PoliciesCon.png" alt="Policies" style=width:100%;height:100%></a>
+        </div>
+        <div class="column">
+            <img src="OtherCon.png" alt="Others" style="width:100%;height:100%">
+        </div>
+    </div>
+
+</body>
+</html>

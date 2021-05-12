@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Email</title>
+    <link rel="icon" href="coronaIcon.png">
+    <link href="style2.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+
+
+
+
+        @font-face {
+            font-family: font1;
+            src: url(Montserrat-Regular.ttf);
+        }
+
+        body {
+            margin: 0;
+        }
+
+        .topnav {
+            overflow: hidden;
+            background-color: #333;
+        }
+
+            .topnav a {
+                float: left;
+                display: block;
+                color: #f2f2f2;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-size: 17px;
+            }
+
+                .topnav a:hover {
+                    background-color: #ddd;
+                    color: black;
+                }
+
+                .topnav a.active {
+                    background-color: red;
+                    color: white;
+                }
+
+            .topnav .icon {
+                display: none;
+            }
+
+        @media screen and (max-width: 1000px) {
+            .topnav a:not(:first-child) {
+                display: none;
+            }
+
+            .topnav a.icon {
+                float: right;
+                display: block;
+            }
+        }
+
+        @media screen and (max-width: 1000px) {
+            .topnav.responsive {
+                position: relative;
+            }
+
+                .topnav.responsive .icon {
+                    position: absolute;
+                    right: 0;
+                    top: 0;
+                }
+
+                .topnav.responsive a {
+                    float: none;
+                    display: block;
+                    text-align: left;
+                }
+        }
+
+
+
+        @font-face {
+            font-family: font1;
+            src: url(Montserrat-Regular.ttf);
+        }
+
+        body {
+            margin: 0;
+        }
+
+        .navbar {
+            background-color: #333;
+            overflow: auto;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+
+            .navbar a {
+                float: right;
+                color: #f2f2f2;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-size: 17px;
+            }
+
+
+                .navbar a:hover {
+                    background-color: #ddd;
+                    color: black;
+                }
+
+
+                .navbar a.active {
+                    background-color: #4CAF50;
+                    color: white;
+                }
+    </style>
+
+</head>
+<body>
+
+    <div class="topnav" id="myTopnav">
+
+        <a class="active" href="newPage.html">News</a>
+        <a href="main.html">Home</a>
+        <a href="Cases.html">National Stats</a>
+        <a href="Deaths.html">International Stats</a>
+        <a href="Mask.html">Masks</a>
+        <a href="Mission.html">Mission</a> <a href="#">Animation</a>
+        <a href="#">Beta-Developer</a>
+        <a href="Contact.html">Contact</a>
+
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+    <br>
+    <style>
+        @font-face {
+            font-family: font2;
+            src: url(NotoSansJP-Regular.ttf);
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .column {
+            float: left;
+            width: 33.333333333333%;
+            padding-right: 5px;
+            border-top: 5px solid red;
+            border-bottom: 5px solid red;
+            border-left: 2.5px solid red;
+            border-right: 2.5px solid red;
+        }
+
+        /* Clearfix (clear floats) */
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        p {
+            font-family: font2;
+        }
+    </style>
+    <div class="twitter-tweet">
+        <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Oregon, we carefully ventured out onto the ice together, but it has begun to crack. COVID-19 is spreading too quickly, particularly in parts of rural Oregon. Before we fall through the ice, it’s time to take a step back with new rules to help slow the spread of this disease. <a href="https://t.co/XBSbRy2HwE">pic.twitter.com/XBSbRy2HwE</a></p>&mdash; Governor Kate Brown (@OregonGovBrown) <a href="https://twitter.com/OregonGovBrown/status/1286015711639298048?ref_src=twsrc%5Etfw">July 22, 2020</a></blockquote>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+    <div class="twitter-tweet">
+        <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Reminder: two new rules to keep Oregonians healthy and safe take effect today.<br><br>??Face coverings must be worn outdoors when you can&#39;t distance from others, as well as indoor public spaces.<br><br>??Indoor social get-togethers are capped at 10.<br><br>We must slow the spread of the disease. <a href="https://t.co/MMFVdM72Dp">pic.twitter.com/MMFVdM72Dp</a></p>&mdash; Governor Kate Brown (@OregonGovBrown) <a href="https://twitter.com/OregonGovBrown/status/1283464290096168960?ref_src=twsrc%5Etfw">July 15, 2020</a></blockquote>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+    <div class="twitter-tweet">
+        <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Keeping Oregonians safe is my top priority. Over the last month, COVID-19 spread at an alarming rate in both urban and rural counties. That&#39;s why I&#39;m requiring face coverings in indoor public places in ALL counties, effective 7/1. We can &amp; must reduce the spread of this disease. <a href="https://t.co/txZyucIsqm">pic.twitter.com/txZyucIsqm</a></p>&mdash; Governor Kate Brown (@OregonGovBrown) <a href="https://twitter.com/OregonGovBrown/status/1277708754742415361?ref_src=twsrc%5Etfw">June 29, 2020</a></blockquote>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+    <div class="twitter-tweet">
+        <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Face coverings will save lives. Last week, I announced the 7 counties where it&#39;s required to wear a face covering in indoor, public spaces. Other counties can request to opt in.<br><br>Clatsop County Board of Commissioners requested to join and will be the 8th county, effective 7/1. <a href="https://t.co/C61MNtHs7a">pic.twitter.com/C61MNtHs7a</a></p>&mdash; Governor Kate Brown (@OregonGovBrown) <a href="https://twitter.com/OregonGovBrown/status/1276663853644824577?ref_src=twsrc%5Etfw">June 26, 2020</a></blockquote>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+    <div class="twitter-tweet">
+        <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Today the mask requirement for public indoor spaces goes into effect for Multnomah, Clackamas, Washington, Marion, Polk, Hood River, and Lincoln counties. This will save lives. Let me share with you why I wear a mask, and why I hope you will too. <a href="https://t.co/qgvguWWodb">pic.twitter.com/qgvguWWodb</a></p>&mdash; Governor Kate Brown (@OregonGovBrown) <a href="https://twitter.com/OregonGovBrown/status/1275812510218645505?ref_src=twsrc%5Etfw">June 24, 2020</a></blockquote>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+
+</body>
+</html>
