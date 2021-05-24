@@ -8,3 +8,5 @@ Any actions taken within the app are only used to navigate the app and display i
 None of these actions are recorded or saved in any capacity.
 
 The app may redirect you to external apps which may collect personal data, however they are in no way affiliated with the OregonAid app.
+
+<img width="976" alt="Screen Shot 2021-05-24 at 1 33 06 PM" src="https://user-images.githubusercontent.com/54952763/119404476-b737c800-bc94-11eb-99c0-cb92298e0761.png">
